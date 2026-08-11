@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mis 15 Años - Zamira | Álbum Digital</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <!-- Fancybox CSS para el lightbox de imágenes -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css"/>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+    <!-- HERO / PORTADA -->
+    <header class="hero">
+        <div class="hero-content">
+            <p class="hero-subtitle">Mis 15 Años</p>
+            <h1 class="hero-title">Zamira</h1>
+            <p class="hero-date">07 de Agosto, 2026</p>
+            <a href="#fototeca" class="btn-primary">Ver</a>
+        </div>
+    </header>
+
+    <!-- CONTENEDOR PRINCIPAL -->
+    <main class="container" id="fototeca">
+        
+        <!-- ENCABEZADO GALERÍA -->
+        <div class="section-header">
+            <h2 class="section-title">Galería de Recuerdos</h2>
+            <p class="section-desc">Revive los mejores momentos de esta noche inolvidable.</p>
+        </div>
+
+        <!-- FILTROS -->
+        <div class="filter-container">
+            <button class="filter-btn active" data-filter="all">Todas</button>
+            <button class="filter-btn" data-filter="book">Book Previa</button>
+            <button class="filter-btn" data-filter="recepcion">Recepción</button>
+            <button class="filter-btn" data-filter="vals">Vals & Brindis</button>
+            <button class="filter-btn" data-filter="fiesta">Fiesta</button>
+        </div>
+
+        <!-- GRID DE FOTOS -->
+        <div class="gallery-grid">
+            <!-- Foto 1 -->
+            <div class="gallery-item" data-category="book">
+                <a href="multi/_MG_2350.JPG" 
+                   data-fancybox="gallery" 
+                   data-caption="Sesión Previa - Book en el parque">
+                    <img src="multi/_MG_2350.JPG" alt="Book de 15" loading="lazy">
+                    <div class="gallery-overlay">
+                        <div class="gallery-info">
+                            <h4>Entrada Triunfal</h4>
+                            <p>Book Previa</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+            <!-- Foto 2 -->
+            <div class="gallery-item" data-category="vals">
+                <a href="multi/_MG_2492.JPG" 
+                   data-fancybox="gallery" 
+                   data-caption="El tradicional Vals con Papá">
+                    <img src="multi/_MG_2492.JPG" alt="Vals de 15" loading="lazy">
+                    <div class="gallery-overlay">
+                        <div class="gallery-info">
+                            <h4>El Vals</h4>
+                            <p>Vals & Brindis</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+            <!-- Foto 3 -->
+            <div class="gallery-item" data-category="recepcion">
+                <a href="multi/_MG_2376.JPG" 
+                   data-fancybox="gallery" 
+                   data-caption="Llegada al salón">
+                    <img src="multi/_MG_2376.JPG" alt="Recepción" loading="lazy">
+                    <div class="gallery-overlay">
+                        <div class="gallery-info">
+                            <h4>Entrada Triunfal</h4>
+                            <p>Recepción</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+            <!-- Foto 4 -->
+            <div class="gallery-item" data-category="book">
+                <a href="multi/_MG_2371.JPG" 
+                   data-fancybox="gallery" 
+                   data-caption="Retrato en exteriores">
+                    <img src="multi/_MG_2371.JPG" alt="Retrato Book" loading="lazy">
+                    <div class="gallery-overlay">
+                        <div class="gallery-info">
+                            <h4>Retrato</h4>
+                            <p>Book Previa</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+            <!-- Foto 5 -->
+            <div class="gallery-item" data-category="vals">
+                <a href="multi/_MG_2522.JPG" 
+                   data-fancybox="gallery" 
+                   data-caption="El tradicional Vals con Papá">
+                    <img src="multi/_MG_2522.JPG" alt="Vals de 15" loading="lazy">
+                    <div class="gallery-overlay">
+                        <div class="gallery-info">
+                            <h4>El Vals</h4>
+                            <p>Vals & Brindis</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+            <!-- Foto 6 -->
+            <div class="gallery-item" data-category="recepcion">
+                <a href="multi/_MG_2392.JPG" 
+                   data-fancybox="gallery" 
+                   data-caption="Llegada al salón">
+                    <img src="multi/_MG_2392.JPG" alt="Recepción" loading="lazy">
+                    <div class="gallery-overlay">
+                        <div class="gallery-info">
+                            <h4>Entrada Triunfal</h4>
+                            <p>Recepción</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+            <!-- Foto 7 -->
+            <div class="gallery-item" data-category="fiesta">
+                <a href="multi/_MG_2673.JPG" 
+                   data-fancybox="gallery" 
+                   data-caption="Apertura de la pista de baile">
+                    <img src="multi/_MG_2673.JPG" alt="Fiesta" loading="lazy">
+                    <div class="gallery-overlay">
+                        <div class="gallery-info">
+                            <h4>Inicio del Baile</h4>
+                            <p>Fiesta</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+            <!-- Foto  8 -->
+            <div class="gallery-item" data-category="book">
+                <a href="multi/_MG_2374.JPG" 
+                   data-fancybox="gallery" 
+                   data-caption="Retrato en exteriores">
+                    <img src="multi/_MG_2374.JPG" alt="Retrato Book" loading="lazy">
+                    <div class="gallery-overlay">
+                        <div class="gallery-info">
+                            <h4>Retrato</h4>
+                            <p>Book Previa</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+            <!-- Foto 9 -->
+            <div class="gallery-item" data-category="fiesta">
+                <a href="multi/_MG_3071.JPG" 
+                   data-fancybox="gallery" 
+                   data-caption="Carnaval carioca con amigos">
+                    <img src="multi/_MG_3071.JPG" alt="Carnaval Carioca" loading="lazy">
+                    <div class="gallery-overlay">
+                        <div class="gallery-info">
+                            <h4>Carnaval Carioca</h4>
+                            <p>Fiesta</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+            <!-- Foto 10 -->
+            <div class="gallery-item" data-category="recepcion">
+                <a href="multi/_MG_2404.JPG" 
+                   data-fancybox="gallery" 
+                   data-caption="Llegada al salón">
+                    <img src="multi/_MG_2404.JPG" alt="Recepción" loading="lazy">
+                    <div class="gallery-overlay">
+                        <div class="gallery-info">
+                            <h4>Entrada Triunfal</h4>
+                            <p>Recepción</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+            <!-- Foto 11 -->
+            <div class="gallery-item" data-category="fiesta">
+                <a href="multi/_MG_3283.JPG" 
+                   data-fancybox="gallery" 
+                   data-caption="Carnaval carioca con amigos">
+                    <img src="multi/_MG_3283.JPG" alt="Carnaval Carioca" loading="lazy">
+                    <div class="gallery-overlay">
+                        <div class="gallery-info">
+                            <h4>Carnaval Carioca</h4>
+                            <p>Fiesta</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+            <!-- Foto 12 -->
+            <div class="gallery-item" data-category="vals">
+                <a href="multi/_MG_2553.JPG" 
+                   data-fancybox="gallery" 
+                   data-caption="El tradicional Vals con Papá">
+                    <img src="multi/_MG_2553.JPG" alt="Vals de 15" loading="lazy">
+                    <div class="gallery-overlay">
+                        <div class="gallery-info">
+                            <h4>El Vals</h4>
+                            <p>Vals & Brindis</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+
+        <!-- SECCIÓN DE VIDEO RESUMEN -->
+        <section class="video-section">
+            <h2 class="section-title">Video Resumen</h2>
+            <p class="section-desc">Revive la emoción en movimiento.</p>
+            <div class="video-wrapper">
+                <!-- Reemplazar el src con el video de Vimeo o YouTube embebido -->
+                <video src="multi/IMG_2884.MOV" controls></video>
+            </div>
+        </section>
+
+        <!-- LIBRO DE VISITAS -->
+        <section class="guestbook-section">
+            <div class="section-header">
+                <h2 class="section-title">Libro de Dedicatorias</h2>
+                <p class="section-desc">¡Déjale tu mensaje de felicitación a Zamira!</p>
+            </div>
+
+            <!-- FORMULARIO -->
+            <form id="guestbookForm" class="comment-form">
+                <div class="form-group">
+                    <label for="authorName">Tu Nombre / Familia</label>
+                    <input type="text" id="authorName" class="form-control" placeholder="Ej: Tía Carolina" required>
+                </div>
+                <div class="form-group">
+                    <label for="authorMessage">Tu Mensaje</label>
+                    <textarea id="authorMessage" class="form-control" placeholder="Escribe un deseo lindo para Zamira..." required></textarea>
+                </div>
+                <button type="submit" class="btn-primary" style="width: 100%;">Dejar Mensaje</button>
+            </form>
+
+            <!-- LISTA DE COMENTARIOS -->
+            <div class="comments-list" id="commentsContainer">
+                <div class="comment-card">
+                    <div class="comment-header">
+                        <span class="comment-author">Martín y Flavia</span>
+                        <span class="comment-date">Hace 2 horas</span>
+                    </div>
+                    <p class="comment-text">Zami querida! Que noche tan mágica. Te deseamos lo mejor en esta nueva etapa, estabas hermosa. ¡Te queremos mucho!</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECCIÓN BOTÓN DRIVE / FOTOS COMPLETAS -->
+        <section class="drive-section">
+        <div class="drive-card">
+          <h2 class="section-title">¿Quieres ver la galería completa?</h2>
+          <p class="section-desc">Accede a todas las fotos en alta resolución y videos originales en nuestra carpeta de Google Drive.</p>
+          <a href="https://drive.google.com/drive/folders/1VKgvhg1reNSqA-UWkmq1n7W2ZKVdNN2r?usp=sharing" target="_blank" rel="noopener   noreferrer" class="btn-primary btn-drive">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" style="vertical-align: middle; margin-right: 8px;">
+                <path d="M7.71 3.5L1.15 15l3.43 6h13.14l3.43-6L14.57 3.5H7.71zm1.15 2h4.28l5.15 9H4.71l4.15-9zm1.14 11h7.43l-2.14 3.75H8.86l-1.15-3.75z"/>
+            </svg>
+            Ver fotos completas en Drive
+            </a>
+        </div>
+        </section>
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer>
+        <p>Álbum Digital de Mis 15 &copy; 2026 | Diseñado con ❤️ para Zamira</p>
+        <p style="margin-top: 5px; opacity: 0.7;">Fotografía y Videos por <a href="https://www.instagram.com/luminar_films_/"><strong>Luminar Films</strong></a></p>
+    </footer>
+
+    <!-- FANCYBOX JS (Para ver fotos en pantalla completa) -->
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+    
+</body>
+</html>
